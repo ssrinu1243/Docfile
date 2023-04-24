@@ -1,4 +1,4 @@
-FROM centos
+FROM centos7
 MAINTAINER srinu
 
 RUN yum install httpd java tomcat -y
